@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Crusta.</title>
+  <link rel="icon" href="./assets/img/logo/lacrusta-website-logo.png">
+
+  <!-- 
+    - css link
+  -->
+  <link rel="stylesheet" href="./assets/css/menu.css">
+  <link rel="stylesheet" href="./assets/css/mediaqueries.css">
+
+  <!-- 
+    - icon link
+  -->
+
+  <link href='https://css.gg/chevron-right-r.css' rel='stylesheet'>
+  <link href='https://css.gg/chevron-left-r.css' rel='stylesheet'>
+  <link href='https://css.gg/calendar-dates.css' rel='stylesheet'>
+  <link href='https://css.gg/user.css' rel='stylesheet'>
+  <link href='https://css.gg/arrow-right.css' rel='stylesheet'>
+  <link href='https://css.gg/bell.css' rel='stylesheet'>
+  <link href='https://css.gg/instagram.css' rel='stylesheet'>
+  <link href='https://css.gg/facebook.css' rel='stylesheet'>
+  <link href='https://css.gg/twitter.css' rel='stylesheet'>
+  <link href='https://css.gg/unsplash.css' rel='stylesheet'>
+  <link href='https://css.gg/close-r.css' rel='stylesheet'>
+
+  <!-- 
+    - font link
+  -->
+  
+  <link rel="stylesheet" href="/assets/font/themify-icons/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="/assets/font/sweetsans/style.css">
+  <link href="http://fonts.cdnfonts.com/css/herr-von-muellerhoff" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/nexa-rust-extras" rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">La Crusta<span class="span">.</span></a>
+      </h1>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="nav-item">
+            <a href="/index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/menu.html" class="navbar-link" data-nav-link>Menu</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-btn-group">
+        <button class="btn btn-hover">Order Online</button>
+
+        <button class="nav-toggle-btn" aria-label="Toggle Menu" data-menu-toggle-btn>
+          <span class="line top"></span>
+          <span class="line middle"></span>
+          <span class="line bottom"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+        <!-- 
+        - #MENU 
+      -->
+
+      <section class="menu-hero" style="background-image: url('./assets/img/menu-bg.jpg')">
+
+        <h2 class="h2 section-title">MENU</h2>
+
+      </section>
+
+
+      <section class="menu" id="menu">
+      <div class="container">
+
+        <!-- <h2 class="h2 section-title">Menu</h2>
+
+        <p class="section-text">
+          Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+        </p> -->
+
+        <div class="menu-container">
+
+          <ul class="menu-filter">
+
+            <li>
+              <button class="filter-btn active" data-filter-btn="all">
+                <p class="btn-text">All Dishes</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="pizza">
+                <p class="btn-text">Pizza</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="pasta">
+                <p class="btn-text">Pasta</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="ravioli">
+                <p class="btn-text">Ravioli</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="spaghetti">
+                <p class="btn-text">Spaghetti</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn="salad">
+                <p class="btn-text">Salad</p>
+              </button>
+            </li>
+
+          </ul>
+
+          <ul class="grid-list">
+
+            <li data-filter="pizza">
+              <div class="menu-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/img/promo/pizza-removebg-preview.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Maurizio</h3>
+
+                  <p class="card-text">rosemary, mozzarella, olive oil, sea salt</p>
+
+                  <data class="card-price" value="89">$89</data>
+
+                  <div class="badge">New</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pizza">
+              <div class="menu-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/img/menu/pizza1.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Heirloom</h3>
+
+                  <p class="card-text">marinated heirloom cherry tomatoes, fresh mozzarella, parmesan, basil</p>
+
+                  <data class="card-price" value="45">$45</data>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pizza">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/pizza2.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Crudo</h3>
+
+                  <p class="card-text">prosciutto crudo, bufala mozzarella, parmesan</p>
+
+                  <data class="card-price" value="35">$35</data>
+
+                  <div class="badge">Vegan</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pizza">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/pizza3.png" 
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Marinara</h3>
+
+                  <p class="card-text">house-made marinara, oregano, sea salt, garlic-infused olive oil</p>
+
+                  <data class="card-price" value="56">$56</data>
+
+                  <div class="badge">Vegan</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pizza">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/pizza4.png" 
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Marinara</h3>
+
+                  <p class="card-text">house-made marinara, oregano, sea salt, garlic-infused olive oil</p>
+
+                  <data class="card-price" value="56">$56</data>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pizza">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/pizza5.png" 
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Marinara</h3>
+
+                  <p class="card-text">house-made marinara, oregano, sea salt, garlic-infused olive oil</p>
+
+                  <data class="card-price" value="56">$56</data>
+
+                  <div class="badge">Popular</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pasta">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/promo/pasta-removebg-preview.png" 
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Italian Caesar</h3>
+
+                  <p class="card-text">escarole, parmesan, egg, anchovy, pizza croutons</p>
+
+                  <data class="card-price" value="27">$27</data>
+
+                  <div class="badge">New</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pasta">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/pasta1.png" 
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Arugula</h3>
+
+                  <p class="card-text">coal-roasted potatoes, parmesan, taggiasca olives, basil pesto</p>
+
+                  <data class="card-price" value="63">$63</data>
+
+                  <div class="badge">Online only</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pasta">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/pasta2.png" 
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Eggplant</h3>
+
+                  <p class="card-text">crushed san marzano tomatoes, stracciatella cheese, oregano</p>
+
+                  <data class="card-price" value="43">$43</data>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="pasta">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/pasta3.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+
+                  <div class="badge">Vegan</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="ravioli">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/promo/ravioli-removebg-preview.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="ravioli">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/ravioli1.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+
+                  <div class="badge">New</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="spaghetti">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/promo/spagetti-removebg-preview.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+
+                  <div class="badge">New</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="spaghetti">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/spaghetti1.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+
+                  <div class="badge">Popular</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="spaghetti">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/spaghetti2.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="salad">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/promo/salad-removebg-preview.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="salad">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/salad1.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+
+                  <div class="badge">Popular</div>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="salad">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/salad2.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+            <li data-filter="salad">
+              <div class="menu-card">
+
+                <figure class="card-banner img-holder">
+                  <img src="./assets/img/menu/salad3.png"
+                    class="img-cover">
+                </figure>
+
+                <div class="wrapper">
+                  <h3 class="h3 card-title">Pepperoni</h3>
+
+                  <p class="card-text">tomato sauce, mozzarella, fresh oregano</p>
+
+                  <data class="card-price" value="74">$74</data>
+                </div>
+
+                
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#">
+            <img src="./assets/img/logo/lacrusta-footer-logo.svg" alt="" class="footer-logo">
+          </a>
+
+          <p class="footer-text">
+            Join our newsletter
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email" required class="email-field">
+
+            <button type="submit" class="form-btn">
+              <i class="gg-bell"></i>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Navigation</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Menu</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Opening Hours</p>
+          </li>
+
+          <li>
+            <p class="opening-hours"><b>Monday-Friday: </b> 08:00-22:00</p>
+          </li>
+
+          <li>
+            <p class="opening-hours"><b>Tuesday:</b> 4PM-Till Mid Night</p>
+          </li>
+
+          <li>
+            <p class="opening-hours"><b>Saturday:</b> 10:00-16:00</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="location" aria-hidden="true"></ion-icon>
+
+            <address class="contact-link address">
+              332 Tran Dai Nghia. Hai Ba Trung, Ha Noi.
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="call" aria-hidden="true"></ion-icon>
+
+            <a href="tel:+7894631546876" class="contact-link">+7894631546876</a>
+          </li>
+
+          <li class="footer-item">
+            <ion-icon name="mail" aria-hidden="true"></ion-icon>
+
+            <a href="mailto:lacrust24@gmail.com" class="contact-link">lacrusta24@gmail.com</a>
+          </li>
+
+          <li class="footer-item">
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <i class="gg-instagram"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <i class="gg-facebook"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <i class="gg-twitter"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <i class="gg-unsplash"></i>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 Crusta | All Rights Reserved by <a href="#" class="copyright-link">La Crusta</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  <!-- <script src="./assets/js/script.js" defer></script> -->
+  <script src="./assets/js/menu.js" defer></script>
+</body>
