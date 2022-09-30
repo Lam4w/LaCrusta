@@ -78,5 +78,44 @@
    }
   
    addEventOnElem(filterBtns, "click", filter);
+
+
+  /**
+ * cart
+ */
+
+
+  const orderBtn = document.querySelector('.js-order-btn');
+
+  const cart = document.querySelector('.js-cart-order');
+  
+  const orderContainer = document.querySelector('.js-cart-container');
+  
+  const orderClose = document.querySelector('.js-order-close');
+  
+  //open the reservation form
+  function showOrderList() {
+    cart.classList.add('open');
+    console.log('working');
+  }
+  
+  //close the reservation form
+  function hideOrderList() {
+    cart.classList.remove('open');
+  }
+  
+  // for (const bookingBtn of bookingBtns) {
+  //   bookingBtn.addEventListener('click', showBookingForm)
+  // }
+
+  orderBtn.addEventListener('click', showOrderList);
+  
+  orderClose.addEventListener('click', hideOrderList);
+  
+  cart.addEventListener('click', hideOrderList);
+  
+  orderContainer.addEventListener('click', function (event) {
+    event.stopPropagation();
+  })
   
   
